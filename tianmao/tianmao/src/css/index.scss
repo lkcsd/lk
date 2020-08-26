@@ -669,7 +669,7 @@ body{
 			#tmall-ensure{
 				width: 1190px;
 				height: 100px;
-				background:url(//img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg) no-repeat;
+				background-image:url(url//img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg) no-repeat;
 				margin: 25px auto;
 				padding: 0;
 				a{
@@ -722,6 +722,11 @@ body{
 						width: 105px;
 						height: 105px;
 					}
+					.qr{
+						width: 105px;
+						height: 105px;
+						vertical-align:middle;
+					}
 				}						
 			}
 			#tmall-copyright{
@@ -758,7 +763,6 @@ body{
 					}
 					.footer-fp-img{
 						padding:10px 0 20px 0;
-						a{
 							margin-right: 10px;
 						}
 					}
@@ -773,4 +777,4 @@ body{
 			}		
 		}
 	}
-}
+
